@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+    left: 0;
+    right: 0;
+}
+.text {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button {
+    border: none;
+    font-size: 30px;
+    margin: 0 20px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px; /* Add rounded corners to the buttons */
+}
+.btnYes {   
+    background-color: green;
+}
+.btnNo {
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 4;
+    border-radius: 10px; 
+}
+img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 340px;
+    max-width: 100%;
+    height: auto;
+}
